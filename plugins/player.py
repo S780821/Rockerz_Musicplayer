@@ -1,4 +1,4 @@
-# Aditya Halder // @xmartpersoj
+ // @xmartperson
 
 import os
 import aiofiles
