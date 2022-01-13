@@ -19,7 +19,7 @@
 
 ### Get String Session
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@S780821/Rockerz_Session)
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@S780821/RoCkErZSeSsioN)
 
 
 
