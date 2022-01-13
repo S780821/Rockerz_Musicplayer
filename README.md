@@ -15,7 +15,9 @@
 
 [![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/S780821/Rockerz_Musicplayer)
 
+### Deploy in heroku on telegram
 
+(https://img.shields.io/badge/DEPLOY%20VIA%20TELEGRAM%20BOT-blueviolet?style=for-the-badge&logo=telegram)](https://telegram.dog/XTZ_HerokuBot?start=c2FqYWxyb2NrL0Jlcmxpbi1TcGFtYm90IG1haW4)
 
 ### Get String Session
 
