@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**🔎 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 ...**")
+    lel = await message.reply_sticker("CAACAgIAAxkBAAEFJ5Vh4Q1gxFRon_zTBHmdEWSZvT7uVAACVQADr8ZRGmTn_PAl6RC_IwQ")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -248,7 +248,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**🤖 ᏀᏆᏙᎬ ᎷႮՏᏆᏟ ΝᎪᎷᎬ  😍\n💞 Ͳϴ 🔊 ᏢᏞᎪᎽ 🌷...**"
             )
-        await lel.edit("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
+        await lel.edit("CAACAgIAAxkBAAEFJ6th4Q9UHJdL6lNE3QiEBMgTZwaBFAACGQ0AAuJm8UsXOff5HjA9DiME")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
