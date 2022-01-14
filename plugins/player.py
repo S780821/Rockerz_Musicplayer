@@ -248,7 +248,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**🤖 ᏀᏆᏙᎬ ᎷႮՏᏆᏟ ΝᎪᎷᎬ  😍\n💞 Ͳϴ 🔊 ᏢᏞᎪᎽ 🌷...**"
             )
-        await lel.edit("...**Processing**...")
+        await lel.edit reply_sticker("CAACAgIAAxkBAAEFJ6th4Q9UHJdL6lNE3QiEBMgTZwaBFAACGQ0AAuJm8UsXOff5HjA9DiME")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
