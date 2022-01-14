@@ -39,7 +39,7 @@ async def start_(client: Client, message: Message):
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ ᴄʀᴇᴀᴛᴏʀ : [ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ](https://t.me/xmartperson)
-┣★ sᴜᴘᴘᴏʀᴛ :  [ᴡᴀʀʙᴏᴛᴢ sᴜᴘᴘᴏʀᴛ](https://t.me/warbotzsupport)
+┣★ sᴜᴘᴘᴏʀᴛ :  [ʀᴏᴄᴋᴇʀᴢ sᴜᴘᴘᴏʀᴛ](https://t.me/ROCKERZ_SUPPORT)
 ┣★ ᴄʜᴀᴛᴛɪɴɢ : [xᴍᴀʀᴛʏ Cʜᴀᴛ](https://t.me/xmarty_support)
 ┣★  oᴡɴᴇʀ › : [ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ](https://t.me/xmartperson)
 ┗━━━━━━━━━━━━━━━━━┛
@@ -51,7 +51,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴊᴏɪɴ ɴᴅ sᴛᴀʏ ᴜᴘᴅᴀᴛᴇᴅ ❱ ➕", url=f"https://t.me/warbotzsupport")
+                        "➕ ❰ ᴊᴏɪɴ ɴᴅ sᴛᴀʏ ᴜᴘᴅᴀᴛᴇᴅ ❱ ➕", url=f"https://t.me/ROCKERZ_SUPPORT")
                 ]
                 
            ]
@@ -68,7 +68,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/warbotzsupport")
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/ROCKERZ_SUPPORT")
                 ]
             ]
         ),
