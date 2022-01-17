@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply_sticker("CAACAgIAAxkBAAEFJ5Vh4Q1gxFRon_zTBHmdEWSZvT7uVAACVQADr8ZRGmTn_PAl6RC_IwQ")
+    lel = await message.reply("**🔎 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -172,12 +172,14 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/ROCKERZ_SUPPORT")
-
-                ]
-            ]
+                    InlineKeyboardButton("乂  ʙᴏᴛ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Rockerz_Support"),
+                    InlineKeyboardButton("乂  sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Singing_music_Idol"),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "乂  ʙᴏᴛ  Cʜᴀɴɴᴇʟ", url=f"https://t.me/Rockerz_Updates")],
+           ]
+            
         )
 
         requested_by = message.from_user.first_name
@@ -211,12 +213,14 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/ROCKERZ_SUPPORT")
+                    InlineKeyboardButton("乂  ʙᴏᴛ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Rockerz_Support"),
+                    InlineKeyboardButton("乂  sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Singing_music_Idol"),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "乂  ʙᴏᴛ  Cʜᴀɴɴᴇʟ", url=f"https://t.me/Rockerz_Updates")],
 
-                ]
-            ]
+           ]
         )
 
         except Exception as e:
@@ -227,12 +231,14 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/ROCKERZ_SUPPORT")
-
-                ]
-            ]
+                    InlineKeyboardButton("乂  ʙᴏᴛ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Rockerz_Support"),
+                    InlineKeyboardButton("乂  sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Singing_music_Idol"),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "乂  ʙᴏᴛ  Cʜᴀɴɴᴇʟ", url=f"https://t.me/Rockerz_Updates")],
+           ]
+            
         )
 
         if (dur / 60) > DURATION_LIMIT:
@@ -248,7 +254,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**🤖 ᏀᏆᏙᎬ ᎷႮՏᏆᏟ ΝᎪᎷᎬ  😍\n💞 Ͳϴ 🔊 ᏢᏞᎪᎽ 🌷...**"
             )
-        await lel.edit("...**🎵Processing**... ")
+        await lel.edit("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -281,12 +287,14 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/ROCKERZ_SUPPORT")
-
-                ]
+                    InlineKeyboardButton("乂  ʙᴏᴛ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Rockerz_Support"),
+                    InlineKeyboardButton("乂  sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Singing_music_Idol"),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "乂  ʙᴏᴛ  Cʜᴀɴɴᴇʟ", url=f"https://t.me/Rockerz_Updates")],
             ]
+            
         )
 
         if (dur / 60) > DURATION_LIMIT:
@@ -417,3 +425,4 @@ async def admincache(client, message: Message):
                               photo="https://telegra.ph/file/564f5ebbd100278261a03.jpg",
                               caption="**💥 ᎡϴᏟᏦᎬᎡᏃ 🔈 ᎷႮՏᏆᏟ🤞ΝϴᏔ🥀\n🔥 ᎡᎬᏞϴᎪᎠᎬᎠ 🌷 ...**"
     )
+
