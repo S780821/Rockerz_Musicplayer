@@ -172,12 +172,12 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("乂  ʙᴏᴛ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Rockerz_Support"),
-                    InlineKeyboardButton("乂  sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Singing_music_Idol"),
+                    InlineKeyboardButton("乂ʙᴏᴛ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Rockerz_Support"),
+                    InlineKeyboardButton("乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "乂  ʙᴏᴛ  Cʜᴀɴɴᴇʟ", url=f"https://t.me/Rockerz_Updates")],
+                        "乂ʙᴏᴛ Cʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates")],
            ]
             
         )
@@ -213,12 +213,12 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("乂  ʙᴏᴛ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Rockerz_Support"),
-                    InlineKeyboardButton("乂  sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Singing_music_Idol"),
+                    InlineKeyboardButton("乂ʙᴏᴛ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Rockerz_Support"),
+                    InlineKeyboardButton("乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "乂  ʙᴏᴛ  Cʜᴀɴɴᴇʟ", url=f"https://t.me/Rockerz_Updates")],
+                        "乂ʙᴏᴛ Cʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates")],
 
            ]
         )
@@ -231,12 +231,12 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("乂  ʙᴏᴛ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Rockerz_Support"),
-                    InlineKeyboardButton("乂  sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Singing_music_Idol"),
+                    InlineKeyboardButton("乂ʙᴏᴛ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Rockerz_Support"),
+                    InlineKeyboardButton("乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "乂  ʙᴏᴛ  Cʜᴀɴɴᴇʟ", url=f"https://t.me/Rockerz_Updates")],
+                        "乂ʙᴏᴛ  Cʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates")],
            ]
             
         )
@@ -287,12 +287,12 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("乂  ʙᴏᴛ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Rockerz_Support"),
-                    InlineKeyboardButton("乂  sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Singing_music_Idol"),
+                    InlineKeyboardButton("乂ʙᴏᴛ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Rockerz_Support"),
+                    InlineKeyboardButton("乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "乂  ʙᴏᴛ  Cʜᴀɴɴᴇʟ", url=f"https://t.me/Rockerz_Updates")],
+                        "乂ʙᴏᴛ Cʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates")],
             ]
             
         )
