@@ -13,7 +13,7 @@
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku] (https://heroku.com/deploy?template=https://github.com/S780821/Rockerz_Musicplayer)
+[![Deploy+On+Heroku((https://heroku.com/deploy?template=https://github.com/S780821/Rockerz_Musicplayer)
 
 ### Deploy in heroku on telegram
 
