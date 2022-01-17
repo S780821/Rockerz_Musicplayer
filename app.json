@@ -18,7 +18,7 @@
             "description": "Put Bot Token Of Your Bot",
             "required": true
         },
-         "BOT_TOKEN": {
+         "BOT_USERNAME": {
             "description": "Put Bot Username Of Your Bot",
             "required": true
         },
