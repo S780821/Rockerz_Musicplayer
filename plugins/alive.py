@@ -5,8 +5,7 @@ from modules.helpers.filters import command
 from modules.helpers.command import commandpro
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-
-
+from config import BOT_USERNAME
 START_TIME = datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
 TIME_DURATION_UNITS = (
@@ -34,24 +33,31 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/564f5ebbd100278261a03.jpg",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
+        caption=f"""**
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ʀᴏᴄᴋᴇʀᴢ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ](https://t.me/xmartperson)
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
-┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ](https://t.me/xmartperson)
-┣★ sᴜᴘᴘᴏʀᴛ :  [ʀᴏᴄᴋᴇʀᴢ sᴜᴘᴘᴏʀᴛ](https://t.me/ROCKERZ_SUPPORT)
-┣★ ᴄʜᴀᴛᴛɪɴɢ : [xᴍᴀʀᴛʏ Cʜᴀᴛ](https://t.me/xmarty_support)
-┣★  oᴡɴᴇʀ › : [ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ](https://t.me/xmartperson)
-┗━━━━━━━━━━━━━━━━━┛
-
-💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ᴘᴇʀғᴇᴄᴛ ᴏᴡɴᴇʀ](https://t.me/xmartperson) ...
-━━━━━━━━━━━━━━━━━━━━━━━━**""",
-    reply_markup=InlineKeyboardMarkup(
+ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...""",
+   reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴊᴏɪɴ ɴᴅ sᴛᴀʏ ᴜᴘᴅᴀᴛᴇᴅ ❱ ➕", url=f"https://t.me/ROCKERZ_SUPPORT")
+                        "乂ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ乂",
+                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                    )
+                ],
+                [            
+                 InlineKeyboardButton  ("乂ᴄʀᴇᴀᴛᴇʀ乂", url=f"https://t.me/Xmartperson"),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "乂sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ乂", url=f"https://t.me/Rockerz_Support"
+                    ),
+                    InlineKeyboardButton(
+                        "乂ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates"
+                    ),
+                ],
+                [
+                    InlineKeyboardButton(
+                        "乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol")
                 ]
                 
            ]
