@@ -18,6 +18,10 @@
             "description": "Put Bot Token Of Your Bot",
             "required": true
         },
+         "BOT_TOKEN": {
+            "description": "Put Bot Username Of Your Bot",
+            "required": true
+        },
         "STRING_SESSION": {
             "description": "Pyrogram String Session",
             "required": true
