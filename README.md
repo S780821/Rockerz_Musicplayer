@@ -27,4 +27,4 @@ Before deploy fork this repo and star and change readme.md
 
 ### Copy Pasters You Can Copy This But Must Give Credits ...
 
-#### Main Developer = [ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ](@xmartperson)
+#### Main Developer = [ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ](https://t.me/Xmartperson)
