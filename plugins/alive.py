@@ -5,7 +5,7 @@ from modules.helpers.filters import command
 from modules.helpers.command import commandpro
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from config import BOT_USERNAME
+from modules.config import BOT_USERNAME
 START_TIME = datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
 TIME_DURATION_UNITS = (
