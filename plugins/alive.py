@@ -32,32 +32,29 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/0d0cd252270861a6838ce.jpg",
+        photo=f"https://telegra.ph/file/f7a3acc8e6e0e85f56150.jpg",
         caption=f"""**
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ʀᴏᴄᴋᴇʀᴢ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴄʀᴇᴀᴛᴇᴅ ʙʏ [ᴘᴇʀғᴇᴄᴛ sᴀʟɪᴍ](https://t.me/xmartperson)
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...""",
+⛦➪ Ꮋᴇʟʟᴏ Ꮖ ᴀᴍ  Տᴜᴘᴇʀ ҒᴀՏᴛ  ᎷᴜՏɪᴄ Ꮲʟᴀʏᴇʀ Ꮯʀᴇᴀᴛᴇᴅ Ᏼʏ [Oғғɪᴄɪᴀʟ ᴀғᴋ xD](https://t.me/log_afk)
+⛦➪ Ᏼᴏᴛ Ғᴏʀ Ͳᴇʟᴇɢʀᴀᴍ ᏀʀᴏᴜᴘՏ...""",
    reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "乂ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ乂",
+                        "➕ ᗩᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ Ꮐʀᴏᴜᴘ ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [            
-                 InlineKeyboardButton  ("乂ᴄʀᴇᴀᴛᴇʀ乂", url=f"https://t.me/Xmartperson"),
-                ],
                 [
                     InlineKeyboardButton(
-                        "乂sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ乂", url=f"https://t.me/Rockerz_Support"
+                        "📨 Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Blaze_Support"
                     ),
                     InlineKeyboardButton(
-                        "乂ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates"
+                        "ՄᴘᴅᴀᴛᴇՏ 📨", url=f"https://t.me/The_Blaze_Network"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol")
+                        "🎇 Ꮯʜᴀᴛ Ꮓᴏɴᴇ 🎇", url=f"https://t.me/UNIQUE_SOCIETY")
                 ]
                 
            ]
@@ -68,13 +65,12 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "sᴀʟɪᴍ"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/0d0cd252270861a6838ce.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/ROCKERZ_SUPPORT")
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/BLAZE_SUPPORT")
                 ]
             ]
         ),
@@ -84,13 +80,12 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/0d0cd252270861a6838ce.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/S780821/Rockerz_Musicplayer")
+                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/UNIQUE_SOCIETY")
                 ]
             ]
         ),
