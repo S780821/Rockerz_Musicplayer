@@ -8,7 +8,7 @@
 
 ### Deploy To Railway
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/S780821/Rockerz_Musicplayer&envs=API_ID,API_HASH,BOT_TOKEN,STRING_SESSION)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/S780821/Rockerz_Musicplayer&envs=API_ID,API_HASH,BOT_TOKEN,BOT_USERNAME,STRING_SESSION)
 
 
 ### Deploy To Heroku
