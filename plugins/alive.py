@@ -57,7 +57,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol")
+                        "乂sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/BOTDUNIYA")
                 ]
                 
            ]
